@@ -105,5 +105,139 @@ h1 {
     display: flex;
     justify-content: end;
     flex-direction: column;
+}
+.section-course {
+    background-image: url("./imgs/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 604.65px;
+    padding: 0px 68px;
+}
+h2 {
+    font-size: 46px;
+    color: white !important;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    width: 600px;
+}
+.line-img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.section-course-span {
+    color: #FFB647;
+}
+.section-news {
+    background-image: url("./imgs/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 601.65px;
+    padding: 0px 68px;
+}
+.section-news-h3 {
+    font-size: 46px;
+    color: white !important;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.section-news-card-img {
+    width: 258px;
+    height: 165px;
+    margin-left: 3.5px;
+}
+.section-news-main-div {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    padding-top: 50px;
+}
+.section-news-card {
+    background-color: #171C26;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 265px;
+}
+.section-news-card-h3 {
+    font-size: 16px;
+    color: white;
+}
+.section-news-card-text {
+    width: 213px;
+    font-size: 10px;
+    color: white;
+}
+.section-crypto {
+    background-image: url("./imgs/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 553.65px;
+    padding: 0px 68px;
+}
+.section-crypto-h3 {
+    font-size: 46px;
+    color: white !important;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.section-crypto-button-div {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.section-crypto-button-1 {
+    background-color: #09C0FA;
+    color: white;
+    border: 4px solid white;
+    font-size: 16px;
+    width: 240px;
+    height: 58px;
+}
+.section-crypto-button-2 {
+    background-color: #FFB647;
+    color: white;
+    border: 4px solid white;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 240px;
+    height: 58px;
+}
+.section-crypto-img {
 
+}
+.section-crypto-text {
+    font-size: 36px;
+    width: 300px;
+    color: white;
+}
+.section-crypto-text-div {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.section-crypto-main-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 212px;
+}
+.footer-h3 {
+    font-size: 24px;
+    color: white;
+}
+.footer-text {
+    font-size: 17px;
+    color: white;
+    width: 150px;
 }
