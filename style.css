@@ -1,0 +1,109 @@
+.nav-account-div-h4 {
+    font-size: 18px;
+    color: white;
+}
+.nav-account-div-h3 {
+    font-size: 24px;
+    color: white;
+}
+.nav-account-div {
+    display: flex;
+    align-items: center;
+}
+nav {
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.nav-link {
+    font-size: 20px;
+    color: white !important;
+    text-decoration: none;
+}
+body {
+    background-color: #171C26 !important;
+}
+.nav-input {
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    color: #ACACAC;
+    width: 202px;
+    height: 38px;
+    font-size: 14px;
+    padding-left: 10px;
+    position: relative;
+    z-index: 0;
+}
+.nav-div-input {
+    position: absolute;
+    z-index: 1;
+    left: 1470px;
+    width: 30px;
+    height: 30px;
+    background-color: #09C0FA;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+h1 {
+    font-size: 46px;
+    color: white !important;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.header-main-div {
+    background-image: url("./imgs/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 553.65px;
+}
+.header-div {
+    display: flex;
+    justify-content: space-around;
+}
+.header-text {
+    font-size: 36px;
+    width: 250px;
+    color: white;
+    padding-top: 150px;
+}
+.header-text-div {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.header-button-1 {
+    background-color: #09C0FA;
+    color: white;
+    border: 4px solid white;
+    font-size: 16px;
+    width: 240px;
+    height: 58px;
+}
+.header-button-2 {
+    background-color: #FFB647;
+    color: white;
+    border: 4px solid white;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 240px;
+    height: 58px;
+}
+.header-button-div {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+}
