@@ -241,3 +241,60 @@ footer {
     color: white;
     width: 150px;
 }
+.section-course-input {
+    width: 400px !important;
+    border-radius: 25px;
+    background-color: inherit;
+    color: white;
+    border: 2px solid white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.section-course-select {
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.convert {
+    background-color: #FFB647;
+    color: white;
+    border: 4px solid white;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 240px;
+    height: 58px;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result {
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.select-div {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 600px;
+}
+.swap {
+    background-color: #09C0FA;
+    color: white;
+    border: 3px solid white;
+    font-size: 16px;
+    width: 240px;
+    height: 58px;
+    margin: 10px 0px;
+}
