@@ -59,6 +59,7 @@ h1 {
     font-size: 46px;
     color: white !important;
     margin: auto;
+    text-align: center;
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -209,9 +210,6 @@ h2 {
     width: 240px;
     height: 58px;
 }
-.section-crypto-img {
-
-}
 .section-crypto-text {
     font-size: 36px;
     width: 300px;
@@ -256,7 +254,7 @@ footer {
     padding: 10px 25px;
     border: 2px solid white;
     border-radius: 10px;
-    background-color: inherit;
+    background-color: rgb(34, 39, 60);
     color: white;
     margin: auto;
     display: flex;
@@ -297,4 +295,29 @@ footer {
     width: 240px;
     height: 58px;
     margin: 10px 0px;
+}
+.dropdown {
+    position: relative;
+    display: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #171C26;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    height: 100px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: none;
+}
+.dropdown-link {
+    color: white;
+}
+.dropdown-nav-link {
+    font-size: 20px;
+    color: white !important;
+    text-decoration: none;
 }

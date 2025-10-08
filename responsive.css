@@ -1,0 +1,66 @@
+@media only screen and (max-width: 901px) {
+    .section-news-card-3 {
+        display: none
+    }
+    footer {
+        margin: 50px 0px;
+    }
+    .nav-searc, .nav-div-input {
+        display: none;
+    }
+    .section-news-main-div {
+        width: 750px;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .nav-link {
+        display: none;
+    }
+    .dropdown {
+        display: inline;
+    }
+}
+@media only screen and (max-width: 426px) {
+    footer {
+        flex-wrap: wrap;
+    }
+    .section-news-card-2 {
+        display: none;
+    }
+    .nav-input {
+        display: none;
+    }
+    .section-crypto-main-div {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .section-crypto-img {
+        display: none;
+    }
+    .Globe {
+        display: none;
+    }
+    .header-div {
+        flex-wrap: wrap;
+    }
+    .header-text {
+        padding: 0;
+    }
+    h2 {
+        font-size: 35px;
+        width: 355px;
+    }
+    .select-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+    .section-course-input {
+        width: 300px !important;
+    }
+    .section-course {
+        padding: 0;
+    }
+}
